@@ -40,5 +40,3 @@ cc -I./src -I./include -o ntscf_listener src/avtp.c src/avtp_ntscf.c src/common.
 ```shell
 sudo ./ntscf_listener -d <source mac> -i <interface name>
 ```
- 
-THE END
