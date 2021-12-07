@@ -1,6 +1,5 @@
 # SOME_NEW_THING
-==============================
-* Execution of acf_talker
+## Execution of acf_talker
 * Building 
 
 ```shell
