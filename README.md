@@ -1,7 +1,8 @@
 # SOME_NEW_THING
 ==============================
 * Execution of acf_talker
-Building 
+* Building 
+
 '''shell
 cc -I./src -I./include -o acf_talker src/avtp.c src/avtp_tscf.c src/common.c src/avtp_stream.c src/can.c acf_talker.c
 '''
