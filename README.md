@@ -1,7 +1,7 @@
 ## Introduction
 - This is mostly way too simple to be on git, or idk. But anyways....
 - So when working on CAN protocol in vehicles which is kinda legacy, me in the hopes of building a gateway engine which tunnels CAN to Ethernet, and Ethernet to CAN packets. 
-- Needed a serialization layer, with APIs to set the fields for creating the Ethernet packets.
+- Needed a serialization layer, with APIs to set the fields for creating the Ethernet packets and CAN packets.
 - This repository also contains the serialization layer for CAN packets.
 - Hope this helps someone
  
