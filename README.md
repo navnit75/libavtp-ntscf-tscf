@@ -8,9 +8,14 @@
    - So, you can checkout IEEE - 1722 specification, for AVTP from which AVTP pdu formats are defined.
         - A more detailed preview of the papers include https://1.ieee802.org/tsn/
    - You can also checkout open source implementation (at the time I didn't know, and could have saved some time) , [this](https://github.com/COVESA/Open1722).
-   - All this lies under a larger umbrella of TSN (Time Sensisitive Networking), which can be checked out.
+   - All this lies under a larger umbrella of TSN (Time Sensisitive Networking), which can be checked out [here](https://tsn.readthedocs.io/avb.html).
 
-## Was trying to create some kind of Audio transmitter which transmits the audio from one Node to Another
+## To Do :-
+- So now the data is being transmitted in terms of Audio File captured through the microphone of the talker
+- Coz this was supposed to work for Real Time Data in LAN, so audio it was at the time
+- I need to create something more CLI based which gives the overview of the process to user
+- maybe try to use the
+## Was trying to create some kind of Audio transmitter which transmits the audio from one Node to another by using the AUDIO as the data file
 ### Execution of acf_talker
 Building 
 ```shell
