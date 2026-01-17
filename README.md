@@ -1,10 +1,15 @@
 ## Introduction
 - This is mostly way too simple to be on git, or idk. But anyways....
-- So when working on CAN protocol in vehicles which is kinda legacy, me in the hopes of building a gateway engine which tunnels CAN to Ethernet, and Ethernet to CAN packets. 
+- So when working on CAN protocol in vehicles which is kinda legacy, me in the hopes of building a gateway engine which tunnels CAN to Ethernet(AVTP), and Ethernet(AVTP) to CAN packets. 
 - Needed a serialization layer, with APIs to set the fields for creating the Ethernet packets and CAN packets.
 - This repository also contains the serialization layer for CAN packets.
 - Hope this helps someone
- 
+- Few of things which can be checked out is :-
+   - So, you can checkout IEEE - 1722 specification, for AVTP from which AVTP pdu formats are defined.
+        - A more detailed preview of the papers include https://1.ieee802.org/tsn/
+   - You can also checkout open source implementation (at the time I didn't know, and could have saved some time) , [this](https://github.com/COVESA/Open1722).
+   - All this lies under a larger umbrella of TSN (Time Sensisitive Networking), which can be checked out.
+
 ## Was trying to create some kind of Audio transmitter which transmits the audio from one Node to Another
 ### Execution of acf_talker
 Building 
