@@ -14,7 +14,7 @@
 - So now the data is being transmitted in terms of Audio File captured through the microphone of the talker
 - Coz this was supposed to work for Real Time Data in LAN, so audio it was at the time
 - I need to create something more CLI based which gives the overview of the process to user
-- maybe try to use the
+  - maybe try to create some kind of TUI.
 ## Was trying to create some kind of Audio transmitter which transmits the audio from one Node to another by using the AUDIO as the data file
 ### Execution of acf_talker
 Building 
